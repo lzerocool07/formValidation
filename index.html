@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="registration">
+        <h1>Реєстрація нового акаунта</h1>
+        <form action="#" method="post" class="parent">
+            <div class="personalInfo">
+                <h2>Особисті данні</h2>
+                <div><input type="text" name="login" placeholder="Логін"></div>
+                <div><input type="email" name="email" placeholder="Email"></div>
+                <div><input type="password" name="password" placeholder="Пароль"></div>
+                <div><input type="password" name="passwordrepeat" placeholder="Пароль"></div>
+                <p><label><input type="checkbox" name="rules" class="rules">Реєструючи аккаунт я погоджуюсь  з з правилами сервера</label></p>
+            </div>
+            <div class="security">
+                <h2>Виберіть префікс</h2>
+                <div class="prefix">
+                    <span class="noPrefix">Без префікса</span>
+                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                </div>
+                <div class="prefixList">
+                    <ul>
+                        <li>Без-префікса</li>
+                        <li>rwe_</li>
+                        <li>fcz_</li>
+                        <li>kjd_</li>
+                        <li>dws_</li>
+                    </ul>
+                </div>
+                <h2>Безпека</h2>
+                <div class="answers">
+                    <span>Номер мобільного телефона?</span>
+                     <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                </div>
+                <div class="answersList">
+                    <ul>
+                        <li>Кличка улюбленої тварини?</li>
+                        <li>Номер паспорта?</li>
+                        <li>Улюблена страва?</li>
+                        <li>Улюблена марка машини?</li>
+                    </ul>
+                </div>
+                <input type="text" name="answer" placeholder="Відповідь">
+                <button type="submit" class="btn">Зараєструватися</button>
+            </div>
+        </form>
+       
+    </div>  
+    <script src="js/main.css"></script>
+</body>
+</html>
